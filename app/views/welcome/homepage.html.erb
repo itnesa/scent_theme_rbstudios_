@@ -137,8 +137,9 @@
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
            <div class="tab-content">
-     <!---  WEDDINGS CAROUSEL ---->       
-              <div class="tab-pane active" id="one">
+     <!---  WEDDINGS CAROUSEL ----> 
+              <div class="tab-pane active" id="one">      
+                <div id="myCarousel">
   						<ol class="carousel-indicators">
     						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     						<li data-target="#myCarousel" data-slide-to="1"></li>
@@ -174,33 +175,26 @@
     						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     						<span class="sr-only">Next</span>
   						</a>
-				</div>
+					</div> <!-- end div id="myCarousel" -->
+				</div>	<!-- end div class tab pane active id = one -->
 
-     <!---  PORTRAITS CAROUSEL ---->       
-              <div class="tab-pane" id="two">
+     <!---  PORTRAITS CAROUSEL ---->  
+        <div class="tab-pane" id="two">     
+              <div id="portraitsCarousel">
   						<ol class="carousel-indicators">
     						<li data-target="#portraitsCarousel" data-slide-to="0" class="active"></li>
-    						<li data-target="#portraitsCarousel" data-slide-to="1"></li>
-   							<li data-target="#portraitsCarousel" data-slide-to="2"></li>
-    						<li data-target="#portraitsCarousel" data-slide-to="3"></li>   						
+    						<li data-target="#portraitsCarousel" data-slide-to="1"></li>						
   						</ol>
 
   						<!-- Wrapper for slides -->
   						<div class="carousel-inner" role="listbox">
     						<div class="item active">
-      							<img src="assets/portraits/portraits2.jpg" alt="Chania">
+      							<img src="assets/portraits/portraits2.jpg" alt="portrait1">
     						</div>
 
     						<div class="item">
-      							<img src="assets/portraits/portraits1.jpg" alt="Chania">
-    						</div>
-    						<div class="item">
-      							<img src="assets/portraits/portraits1.jpg" alt="Chania">
-    						</div>
-     						<div class="item">
-      							<img src="assets/portraits/portraits1.jpg" alt="Chania">
-    						</div>   						
-
+      							<img src="assets/portraits/portraits1.jpg" alt="portrait2">
+    						</div>					
 
   						</div>
 
@@ -213,13 +207,16 @@
     						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     						<span class="sr-only">Next</span>
   						</a>
-				</div>
-
+				</div> <!-- end div id=portraits carousel -->
+				 
+        </div> <!-- end div class="tab-pane"  id=two --> 
+				
      <!---  LIFESTYLE CAROUSEL ---->       
               <div class="tab-pane " id="three">
+                 <div id="lifestyleCarousel">
   						<ol class="carousel-indicators">
-    						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    						<li data-target="#myCarousel" data-slide-to="1"></li>
+    						<li data-target="#lifestyleCarousel" data-slide-to="0" class="active"></li>
+    						<li data-target="#lifestyleCarousel" data-slide-to="1"></li>
 
   						</ol>
 
@@ -232,25 +229,26 @@
     						<div class="item">
       							<img src="assets/lifestyle/lifestyle1.jpg" alt="Chania">
     						</div>
-
-  						</div>
+ 						</div>
 
   						<!-- Left and right controls -->
-  						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  						<a class="left carousel-control" href="#lifestyleCarousel" role="button" data-slide="prev">
     						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
    							 <span class="sr-only">Previous</span>
   						</a>
- 						 <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+ 						 <a class="right carousel-control" href="#lifestyleCarousel" role="button" data-slide="next">
     						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     						<span class="sr-only">Next</span>
   						</a>
-				</div>
+				</div> <!-- div id lifestyleCarousel -->
+            </div>   <!-- div class tab-pane id "three" -->
 
      <!---  EVENTS CAROUSEL ---->       
               <div class="tab-pane " id="four">
+                <div id="eventsCarousel">
   						<ol class="carousel-indicators">
-    						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    						<li data-target="#myCarousel" data-slide-to="1"></li>
+    						<li data-target="#eventsCarousel" data-slide-to="0" class="active"></li>
+    						<li data-target="#eventsCarousel" data-slide-to="1"></li>
   						</ol>
 
   						<!-- Wrapper for slides -->
@@ -266,17 +264,20 @@
   						</div>
 
   						<!-- Left and right controls -->
-  						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  						<a class="left carousel-control" href="#eventsCarousel" role="button" data-slide="prev">
     						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
    							 <span class="sr-only">Previous</span>
   						</a>
- 						 <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+ 						 <a class="right carousel-control" href="#eventsCarousel" role="button" data-slide="next">
     						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     						<span class="sr-only">Next</span>
   						</a>
-				</div>
+				</div> <!-- div id="eventsCarousel" -->
+				</div> <!-- div class tab-pane id="four" -->
 
-					</div>
+
+
+				</div>
 
 
 					</div>
